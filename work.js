@@ -17,5 +17,19 @@ if (age >= 18) {
 } else {
   console.log("You are not eligible to vote yet!");
 }
+//4.. Function to add two numbers:
+Let a=2;
+let b=4;
+function addNumbers(a, b) {
+  return a + b;
+}
+//5.avaScript program to calculate factorial using a for loop:
+
+let num = prompt("Enter a number:");
+let factorial = 1;
+for (let i = 1; i <= num; i++) {
+  factorial *= i;
+}
+
 
 
